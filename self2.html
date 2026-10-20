@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html rang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>혼자 만드는 html2</title>
+        <style>
+            table, th, td {
+                border: 1px none;
+            }
+            th, td {
+                padding: 15px;
+            }
+            td{
+                text-align: center;
+                
+            }
+            a {
+                text-decoration: none;
+            }
+            img {
+                 padding-top: 15px;
+            }
+            ul {
+                list-style: none;
+            }
+            li {
+                margin: 10px;
+            }
+            li label {
+                width: 120px;
+                float: left;
+                text-align: right;
+                padding-right: 8px;
+                color: rgb(93, 95, 202);
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>
+                <strong>2일차 복습하기</strong>
+                <p>시작하기</p>
+            </caption>
+            <tr>
+                <th>네이버</th>
+                <th>네이트</th>
+                <th>다음</th>
+                <th>구글</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.naver.com">네이버 홈페이지
+                    <img src="images/tiger12.jpg" width="200" height="200" alt="네이버 홈페이지로 가기">
+                </a></td>
+                <td><a href="https://www.nate.com">네이트 홈페이지
+                    <img src="images/lion.jpg" width="200" height="200" alt="네이트 홈페이지로 가기">
+                </a></td>
+                <td><a href="https://www.daum.net">다음 홈페이지
+                    <img src="images/ele.jpg" width="200" height="200" alt="다음 홈페이지로 가기">
+                </a></td>
+                <td><a href="https://www.google.co.kr">구글 홈페이지
+                    <img src="images/su.jpg" width="200" height="200" alt="구글 홈페이지로 가기">
+                </a></td>
+            </tr>
+        </table>
+        <h2>각 사이트 별 회원가입</h2>
+        <form>
+            <fieldset>
+                <legend>네이버 로그인 정보</legend>
+                <ul>
+                    <li>
+                        <label for="user-id">아이디</label>
+                        <input type="text" id="user-id">
+                    </li>
+                    <li>
+                        <label for="pwd1">비밀번호</label>
+                        <input type="password" id="pwd1">
+                    </li>
+                    <li>
+                        <label for="pwd2">비밀번호</label>
+                        <input type="password" id="pwd2">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>네이트 로그인 정보</legend>
+                <ul>
+                    <li>
+                        <label for="user-id">아이디</label>
+                        <input type="text" id="user-id">
+                    </li>
+                    <li>
+                        <label for="pwd1">비밀번호</label>
+                        <input type="password" id="pwd1">
+                    </li>
+                    <li>
+                        <label for="pwd2">비밀번호</label>
+                        <input type="password" id="pwd2">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </body>
+</html>
