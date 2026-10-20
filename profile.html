@@ -3,11 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>프로필파일</title>
+        <style>
+            table, th ,td {
+                border: 1px solid #ccc;
+            }
+            th, td {
+                padding: 10px;
+            }
+            thead {
+                background-color: #fff;
+            }
+        </style>
     </head>
     <body>
         <h1><span style="color:blue"> Who am I?</span></h1>
-        <dd><mark>프론트엔드 웹 기술</mark>에 관심이 많습니다.</dd>
-        <dd>현재 대전에서 코딩을 배우는 중입니다.</dd><hr>
+        <p><mark>프론트엔드 웹 기술</mark>에 관심이 많습니다.<br>
+        현재 대전에서 코딩을 배우는 중입니다.</p><hr>
 
         <h1><span style="color:aqua"> Experience</span></h1>
         <ul>
@@ -36,7 +47,37 @@
 
 
         <h1><span style="color:aquamarine">Education</span></h1>
-        <dd>고등학교검정고시</dd>
-        <hr>
+        <figure>
+        <table border="1">
+        <caption>학 력 사 항</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col style="background-color: rgb(62, 124, 111)">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>출신학교</th>
+            <th>전공</th>
+            <th>기간</th>
+            <th>구분</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>고등학교검정고시</td>
+            <td>-</td>
+            <td>2018년</td>
+            <td>합격</td>
+        </tr>
+        <tr>
+            <td>충남중학교</td>
+            <td>-</td>
+            <td>2014.3 ~ 2016.3</td>
+            <td>졸업</td>
+        </tr>
+    </table>
+    <figcaption>ㅇㄴㅇ</figcaption>
+    </figure>
     </body>
 </html>
