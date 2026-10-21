@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html rang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>혼자 만드는 웹3</title>
+        <style>
+            fieldset input[type="image"] {
+                height: 20px;
+                vertical-align: middle;
+            }
+            input[type="radio"] {
+                margin-top: 10px;
+            }
+     
+        </style>
+    </head>
+    <body>
+        <form method="get" action="image" enctype="utf-8">
+            <fieldset>
+                <legend>로그인하기</legend>
+                <table>
+                    <tr>
+                        <td><label>아이디</label><input type="text" name="user_id" size="15"></td>
+                        <td><label>비밀번호</label><input type="password" name="user_pw" size="15"></td>
+                        <td><input type="image" id="butt" src="images/rog.jpg" alt="login" size="15" onclick="submit()"></td>
+                    </tr>
+                </table>
+                <label>선택할 과목을 체크하세요<small>(2과목 가능)</small></label><br>
+                <label><input type="radio" name="subject" value="math">수학</label>
+                <label><input type="radio" name="subject" value="science">과학</label>
+                <label><input type="radio" name="subject" value="english">영어</label>
+                <label><input type="radio" name="subject" value="Society">사회</label>
+            </fieldset>
+        </form>
+    </body>
+</html>
