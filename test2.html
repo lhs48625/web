@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>컴퓨터</title>
+        <style>
+            body {
+                font: 14px 맑은 고딕;
+            }
+            .container {
+                position: absolute;
+                width: 960px;
+                margin: 0 auto;
+                background-color: #fff;
+                border: 1px solid #e7e7e7;
+            }
+            header{
+                position: relative;
+                height: 280px;
+                background-image: url(images/comp1.jpg);
+                background-repeat: no-repeat;
+                background-position: left top;
+            }
+            header h1 {
+                position: absolute;
+                right: 20px;
+                bottom: 70px;
+                font-size: 3em;
+                color: #ffc;
+                text-shadow: 1px 2px 3px #000;
+            }
+            header h2 {
+                position: absolute;
+                right: 20px;
+                bottom: 30px;
+                font-size: 2em;
+                color: #ff0;
+                text-shadow: 0px 1px 1px #000;
+            }
+            .navi {
+                position: relative;
+                background: black;
+                margin-top: 15px;
+                width: 960px;
+                height: 60px;
+            }
+            .navi ul {
+                list-style: none;
+                height: 40px;
+                padding-top: 10px;
+                padding-bottom: 5px;
+            }
+            .navi ul li {
+                display: inline-block;
+                font-size: 15px;
+            }
+            .navi a, .navi a:visited {
+                padding: 10px 5px 5px 35px;
+                display: block;
+                color: #fff;
+                width: 150px;
+                text-decoration: none;
+            }
+            .navi a:hover, .navi a:active, .navi a:focus {
+                text-shadow: 0px 2px 2px #000;
+                color:#fc0
+            }
+            .sidebar {
+                float: right;
+                width: 200px;
+                height: 550px;
+                background-color: rgb(157, 209, 233);
+                padding-top: 20px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .sidebar img {
+                margin-bottom: 5px;
+                border: 1px solid #ccc;
+                opacity: 0.5;
+                text-align: center;
+            }
+            .side img:hover {
+                border: 1px solid #000;
+                opacity: 1.0;
+            }
+            .content {
+                background-color: #FFFFFF;
+                padding-top: 5px;
+                padding-left: 10px;
+                width: 720px;
+                float: left;
+            }
+            footer {
+                padding: 10px 0;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                clear: both;
+            }
+            header, section, footer, aside, article {
+                display: block;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>computer</h1>
+                <h2>컴퓨터 구성요소</h2>
+            </header>
+            <nav class="navi">
+                <ul>
+                    <li><a href="#">cpu</a></li>
+                    <li><a href="#">메인보드</a></li>
+                    <li><a href="#">그래픽카드</a></li>
+                    <li><a href="#">램</a></li>
+                </ul>
+            </nav>
+            <section class="content">
+                <h2>컴퓨터 소개</h2>
+                <article>
+                    <h3>컴퓨터는 논리 연산을 수행하는 기계의 총칭이다. cpu, 메인보드, 그래픽카드, 메모리 등으로 이루어져있다.</h3>
+                    <p>CPU(Central Processing Unit)는 중앙 처리 장치로, 컴퓨터의 두뇌 역할을 하며 프로그램의 명령을 해석하고 데이터를 연산·처리하며 시스템 전체를 제어하는 핵심 부품입니다.</p>
+                    <p>메인보드는 PC가 제대로 동작하기 위해 입력장치로 들어온 정보가 처리되면서 저장장치에서 메모리로 데이터를 불러오고, 모니터나 소리 등 다른 장치로 출력할 수 있도록 부품들을 연결하는 역할을 합니다.</p>
+                    <p>그래픽카드는 컴퓨터의 화면 출력을 담당하며, 그래픽 연산과 병렬 계산에 특화된 프로세서인 GPU를 포함한 하드웨어 완제품을 의미합니다.</p>
+                    <p>램(RAM)은 작업 중에 발생하는 데이터를 임시로 저장하는 역할을 수행하는 메모리입니다.</p>
+                    <div class="banner"><img src="images/comp1.jpg" width="700" height="233" alt="컴퓨터"></div>
+                </article>
+            </section>
+            <aside class="sidebar">
+                <h3>알립니다.</h3>
+                  <p>컴퓨터 주문 문의 전호는 000-000-0000으로 전화주십시요.</p>
+                  <img src="images/bonce.jpg" alt=""></li>
+                  <img src="images/bonce.jpg" alt=""></li>
+                  <img src="images/bonce.jpg" alt=""></li>
+            </aside>
+            <footer>
+                <address>
+                    <p>대전광역시 서구</p>
+                    <p>asdasd@naver.com</p>
+                </address>
+            </footer>
+        </div>
+    </body>
+</html>
