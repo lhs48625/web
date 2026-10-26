@@ -6,18 +6,23 @@
         <style>
             body {
                 font: 14px 맑은 고딕;
+                
             }
             .container {
                 position: absolute;
-                width: 960px;
+                width: 1900px;
                 margin: 0 auto;
-                background-color: #fff;
+                background-color: #faf8f8;
                 border: 1px solid #e7e7e7;
+                border-collapse: collapse;
+                
             }
             header{
                 position: relative;
-                height: 280px;
-                background-image: url(images/comp1.jpg);
+                height: 500px;
+                width: 1900px;
+                
+                background-image: url(images/comp22.jpg);
                 background-repeat: no-repeat;
                 background-position: left top;
             }
@@ -27,7 +32,7 @@
                 bottom: 70px;
                 font-size: 3em;
                 color: #ffc;
-                text-shadow: 1px 2px 3px #000;
+                text-shadow: 1px 2px 3px #1f1c1c;
             }
             header h2 {
                 position: absolute;
@@ -39,25 +44,32 @@
             }
             .navi {
                 position: relative;
-                background: black;
-                margin-top: 15px;
-                width: 960px;
-                height: 60px;
+                
+                background: rgb(189, 132, 132);
+               
+                width: 1635px;
+                height: 80px;
+                
             }
+         
             .navi ul {
+                position: absolute;
                 list-style: none;
                 height: 40px;
                 padding-top: 10px;
-                padding-bottom: 5px;
+                padding-bottom: 10px;
             }
             .navi ul li {
                 display: inline-block;
                 font-size: 15px;
+                padding: 0px;
+                
+                
             }
             .navi a, .navi a:visited {
                 padding: 10px 5px 5px 35px;
                 display: block;
-                color: #fff;
+                color: #0c0b0b;
                 width: 150px;
                 text-decoration: none;
             }
@@ -65,14 +77,20 @@
                 text-shadow: 0px 2px 2px #000;
                 color:#fc0
             }
+            
             .sidebar {
-                float: right;
-                width: 200px;
-                height: 550px;
+                position: absolute;
+                right: 0px;
+                top: 500px;
+                width: 250px;
+                height: 580px;
                 background-color: rgb(157, 209, 233);
                 padding-top: 20px;
                 padding-left: 10px;
                 padding-right: 10px;
+            }
+            .sidebar h3 {
+                padding-top: 100px;
             }
             .sidebar img {
                 margin-bottom: 5px;
@@ -88,14 +106,26 @@
                 background-color: #FFFFFF;
                 padding-top: 5px;
                 padding-left: 10px;
-                width: 720px;
+                width: 1650px;
                 float: left;
+                color: #29ad45;
+            }
+            .content h2 {
+                border-bottom: 1px solid#000;
+                padding-top: 50px;
+                padding-bottom: 10px;
+            }
+            .content h3 {
+                
             }
             footer {
-                padding: 10px 0;
+                padding: 5px;
+                position: relative;
+               
                 background-color: black;
                 color: #fff;
                 text-align: center;
+
                 clear: both;
             }
             header, section, footer, aside, article {
@@ -120,7 +150,7 @@
             </nav>
             <section class="content">
                 <h2>컴퓨터 소개</h2>
-                <article>
+                <article style="color:#912d2d">
                     <h3>컴퓨터는 논리 연산을 수행하는 기계의 총칭이다. cpu, 메인보드, 그래픽카드, 메모리 등으로 이루어져있다.</h3>
                     <p>CPU(Central Processing Unit)는 중앙 처리 장치로, 컴퓨터의 두뇌 역할을 하며 프로그램의 명령을 해석하고 데이터를 연산·처리하며 시스템 전체를 제어하는 핵심 부품입니다.</p>
                     <p>메인보드는 PC가 제대로 동작하기 위해 입력장치로 들어온 정보가 처리되면서 저장장치에서 메모리로 데이터를 불러오고, 모니터나 소리 등 다른 장치로 출력할 수 있도록 부품들을 연결하는 역할을 합니다.</p>
