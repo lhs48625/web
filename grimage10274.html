@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <title>사진</title>
+
+    </head>
+    <body>
+        <picture>
+            <source srcset="images/1024.jpg" media="(min-width:1024px)"> /* 최대 너비max-width:1024 1024보다 작을때*/
+            <source srcset="images/768.jpg" media="(min-width:768px)"> /*최소 너비min-width:768 768보다 클때*/
+            <source srcset="images/tiger12.jpg" media="(min-width:320px)">
+            <img src="images/1024.jpg" alt="강아지" style="width: 100%;">
+        </picture>
+    </body>
+</html>

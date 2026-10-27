@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <title>em단위</title>
+        <style>
+            #wrapper {
+                width: 96%;
+                margin: 0 auto;
+                font-size: 12px;
+            }
+            .header {
+                font-size: 5rem; /*24px 레퍼를 기준 1em은 12px*/ /*rem은 래퍼기준*/
+                text-align: center;
+            }
+            .text {
+                font-size: 5rem; /*120px 헤더를 기준 1em은 24px*/ /*rem은 래퍼기준*/
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header class="header">
+            <p>em rem 단위</p>
+            <p class="text">가변 폰트</p>
+            </header>
+        </div>
+    </body>
+</html>
