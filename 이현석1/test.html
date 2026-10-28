@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>테스트 페이즈</title>
+        <style>
+            * {
+                width: 1900px;
+                
+            }
+            
+        
+          nav {
+            background: url('../이현석1/girl.jpg');
+            width: 1900px;
+            height: 300px;
+          }
+          
+          header {
+            position: absolute;
+            top: 5px;
+            background-color: black;
+            color: white;
+            text-indent: 2%;
+          }
+          
+        
+          nav ul {
+            float: left;
+            position: absolute;
+            top: -7px;
+          }
+           nav ul li {
+            display: inline;
+            position: relative;
+            left: 40px;
+            top: 15px;
+            margin: 50px;
+            
+            
+           }
+           nav ul h1 {
+            position: relative;
+            left: 5px;
+           }
+           nav ul a {
+            display: inline;
+            position: absolute;
+            left: 100px;
+            width: 150px;
+            text-decoration: none;
+           }
+           nav ul a:visited {
+            color: rgb(235, 235, 236);
+           }
+           nav a:hover, nav a:focus {
+                text-shadow: 0px 2px 2px #ff0101;
+                color:rgb(247, 198, 2)
+           }
+            nav a:active {
+                color: rgb(0, 0, 0);
+            }
+           #con1 {
+            position: absolute;
+            left: 140px;
+            float: left;
+            border: 1px solid black;
+            width: 470px;
+            height: 700px;
+            margin-top: 20px;
+            background-color: rgb(176, 197, 197);
+           }
+           #con1 h2, h5, h6 {
+            text-indent: 1%;
+           }
+           #con1 p {position: relative;
+            left: 1%;
+            width: 300px;
+            height: 700px;
+            
+           }
+           .pre {
+            position: absolute;
+            top: 400px;
+            left: 4px;
+            width: 450px;
+            height: 150px;
+            margin: 5px;
+            border: 1px solid black;
+            text-indent: 1%;
+            background-color: aquamarine;
+           }
+           #con2 {
+            position: absolute;
+            left: 725px;
+            border: 1px solid black;
+            width: 470px;
+            height: 700px;
+            margin-top: 20px;
+            background-color: rgb(155, 192, 192);
+           }
+           #con2 h2, h5, h6 {
+            text-indent: 1%;
+           }
+           #con2 table {
+            position: absolute;
+
+            top: 150px;
+            left: 400x;
+            width: 450px;
+            height: 400px;
+            margin: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+           }
+           #con2 table th, td {
+            border: 1px solid black;
+            
+           }
+           #con2 col {
+            border-collapse: collapse;
+           }
+           footer#foo { 
+            position: absolute;
+            top: 600px;
+            left: 150px;
+
+           }
+         
+           
+           #con3 {
+            position: absolute;
+            left: 1300px;
+            border: 1px solid black;
+            width: 470px;
+            height: 700px;
+            margin-top: 20px;
+            background-color: rgb(144, 155, 155);
+           }
+           #con3 h2, p {
+            text-indent: 1%;
+           }
+           #con4 {
+            position: absolute;
+            left:1310px ;
+            top: 800px;
+            width: 100px;
+            
+           }
+           #con5 {
+           display: inline;
+           width: 100px;
+           }
+           .fie {
+            border: 1px solid black;
+            width: 150px;
+            display: inline;
+            
+           }
+           .fie ul li {
+            list-style: none;
+            margin: 15px 0;
+            font-size: 14px;
+
+           }
+           
+          
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h3>web retreat</h3>
+            </header>
+        <nav>
+            
+            <ul>
+                
+                <li><a href="#">리트릿 소개</a></li>
+                <li><a href="#">학습일정</a></li>
+                <li><a href="#">객실예약</a></li>
+            </ul>
+        </nav>
+
+        <div id="con1">
+        <div >
+            <h2>웹 개발 학습 리트릿</h2>
+            <h6>learning retreat</h6>
+            <h5>배움과 럭셔리의 완벽한 조화</h5>
+        </div>
+
+
+        <div>
+            <ul>
+                <li>html5 & css 기초마스터</li>
+                <li>실습 중심 프로젝트 개발</li>
+                <li>현대적인 웹표준 (html5)</li>
+                <li>문법 및 구조: 기초부터 심화까지</li>
+            </ul>
+            <p>현대적이고 구조화된 웹 페이지를 구축 방법을 배우세요. <b>구조</b><span style="background-color: yellow;">(핵심 개념)</span> 및 
+                스타일과 같은 기초 요소를 마스터하세요.
+            </p>
+            <div class="pre">pre 태그를 사용하면 공백이나 줄 바꿈이 입력된 그대로 유지됩니다.</div>
+        </div>
+        </div>
+        
+        <div id="con2">
+        <div ><h2>주간 학습 여정</h2>
+             <h6>journey</h6>
+             <h5>html5 학습 일정</h5>
+        </div>
+        <table>
+            
+            <tr>
+                <th style="background-color: #fc0;">주차</th>
+                <th style="background-color: #fc0;">주제</th>
+                <th style="background-color: #fc0;">실습내용</th>
+                <th style="background-color: #fc0;">진행방식</th>
+            </tr>
+            <tr>
+                <td>week1</td>
+                <td>foundations-텍스트 및 목록 구조 마스터</td>
+                <td class="col"></td>
+                <td class="col">온라인</td>
+            </tr>
+            <tr>
+                <td>week2</td>
+                <td>appllcations(심화적용)</td>
+                <td>이력서 폼 & 멀티미디어</td>
+                <td>대면</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>비디오/오디오삽입</td>
+                <td>대면</td>
+            </tr>
+        </table>
+        <footer id="foo">2주 과정 수료시 인증서 수여</footer>
+        </div>
+
+
+        <div id="con5">
+        <div id="con3">
+            <h2>오션 스위트 예약</h2>
+            <p>당신의 완벽한 휴식을 위한 프리미엄 객실을 예약하세요.</p>
+        </div>
+        <form id="con4">
+            <fieldset class="fie">
+                <legend>연락처 정보</legend>
+                <ul>
+                    <li>
+                        <label for="user-name">성명(법적 실명)</label>
+                        <input type="text" id="user-name">
+                        <label for="phone">전화번호</label>
+                        <input type="tel" id="phone">
+                        <label for="mail">이메일 주소</label>
+                        <input type="email" id="mail">
+                    </li>
+
+                </ul>
+            </fieldset>
+            <fieldset class="fie" method="get" action="date" enctype="utf-8">
+                <legend>예약 상세</legend>
+                <label>도착 날짜 <input type="date" name="start" id="start"></label>
+                <label class="reg" for="room">객실 유형<label>
+                    <select id="room">
+                        <option value="room1">오션뷰 스위트</option>
+                        <option value="room2">비치프론트 빌라</option>
+                        <option value="room3">기본 스위트</option>
+                    </select>
+                <label class="reg" for="stuffs">부속 인원</label>
+                <input type="number" id="stuffs" value="1" min="0" max="50" step="1">
+            </fieldset>
+            <fieldset class="fie">
+                <legend>추가옵션</legend>
+                <label>식사 서비스 : <input type="radio" name="rice" value="rice2">조식포함
+                <input type="radio" name="rice" value="rice3">포함안함
+                <input type="checkbox" name="pick" value="name2">리조트 픽업 서비스
+                <input type="checkbox" name="pick" value="name3">레이트 체크아웃</label>
+                <h5>특별 요청사항</h5>
+                <input type="text" name="spec" id="spec2" size="15px">
+
+            </fieldset>
+            <fieldset id="buttons">
+                <button type="submit" value="submit" style="background-color: #fc0;">에약확정</button>
+                <button type="reset" value="reset" style="background-color: blue;">처음부터 다시</button>
+            </fieldset>
+        </form>
+        </div>
+    
+    </div>
+    
+        
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>증감 연산자</title>
+        <script>
+            var num1 = 10;
+            var num2 = 20;
+            var result;
+
+            num1--; // num1 즉 10을 계산해서 9//
+            document.write(num1, "<br>")
+
+            num1++; // num 위쪽에서 계산된 9을 다시 더해서 10//
+            document.write(num1, "<br>")
+
+          
+            result = num2++; // 20 21// //후위 일때는 먼저 숫자 대입 후 계산//
+            document.write(result, "<br>")
+
+            result = ++num2; // 22 23// //전위 일때는 계산 후 숫자 대입//
+            document.write(result, "<br>")
+        </script>
+    </head>
+</html>
