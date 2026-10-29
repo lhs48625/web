@@ -19,35 +19,44 @@
             }
             var com = Math.ceil(Math.random() * 3);
             document.write("<img src=\"../images/rsp" + com + ".jpg\">");
-
-            if(gameNum == com) {
-                document.write("<img src=\"../images/비김.jpg\">");
-            }
-
-
-            if( gameNum < com ) {
-                if (com = 2){
-                     document.write("<img src=\"../images/졋다.jpg\">");
-                } else {
-                    document.write("<img src=\"../images/이김.jpg\">");
-                }
-               
-            } 
-            else if (gameNum == 2) {
-                if (com = 1 ){
-                    document.write("<img src=\"../images/이김.jpg\">");
-                } else {
-                    document.write("<img src=\"../images/졋다.jpg\">");
-
-                }
-            }
-            else if( gameNum == 3) {
-                if (com = 3){
-                document.write("<img src=\"../images/이김.jpg\">");}
-            }
-            else {document.write("<img src=\"../images/졋다.jpg\">");}
-
             
+            if(gameNum == 1) {
+             
+                if(com == 1){
+                  document.write("<img src=\"../images/비김.jpg\">");
+                }
+                else if (com == 3){
+                  document.write("<img src=\"../images/이김.jpg\">");
+                }
+                else{
+                 document.write("<img src=\"../images/졋다.jpg\">");
+                }
+
+            } else if(gameNum == 2) {
+
+                if(com == 2){
+                  document.write("<img src=\"../images/비김.jpg\">");
+                }
+                else if (com == 1){
+                  document.write("<img src=\"../images/이김.jpg\">");
+                }
+                else{
+                 document.write("<img src=\"../images/졋다.jpg\">");
+                }
+            }else {
+
+                if(com == 3){
+                  document.write("<img src=\"../images/비김.jpg\">");
+                }
+                else if (com == 2){
+                  document.write("<img src=\"../images/이김.jpg\">");
+                }
+                else{
+                 document.write("<img src=\"../images/졋다.jpg\">");
+                }
+                
+            }
+
         </script>
     </head>
 </html>
