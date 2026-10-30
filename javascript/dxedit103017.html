@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>객체</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $("<li>appendTo</li>").appendTo("#listZone");
+                $("#listZone").prepend("<li>prepend</li>");
+            });
+        </script>
+    </head>
+    <body>
+        <ul id="listZone">
+            <li>리스트</li>
+        </ul>
+    </body>
+</html>

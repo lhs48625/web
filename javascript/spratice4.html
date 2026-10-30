@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>제이쿼리 연습</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
+        <script>
+            function fn_process(){
+                var value=$("#t_input").val();
+                $("#t_output").avl(value);
+            };
+        </script>
+    </head>
+    <body>
+        <input type="text" id="t_input">
+        <input type="button" value="입력하기" onclick="fn_process()"/><br><br>
+        <div>
+            결과: <br>
+            <input type="text" id="t_output" disabled>
+        </div>
+    </body>
+</html>
