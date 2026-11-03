@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div style="width: 600px; height: 600px;">
+        <fieldset class="fie">
+                <legend>연락처 정보</legend>
+                <ul>
+                    <li>
+                        <label for="user-name">성명(법적 실명)</label>
+                        <input type="text" id="user-name">
+                        <label for="phone">전화번호</label>
+                        <input type="tel" id="phone">
+                        <label for="mail">이메일 주소</label>
+                        <input type="email" id="mail">
+                    </li>
+
+                </ul>
+            </fieldset>
+            <fieldset class="fie" method="get" action="date" enctype="utf-8">
+                <legend>예약 상세</legend>
+                <label>도착 날짜 <input type="date" name="start" id="start"></label>
+                <label class="reg" for="room">객실 유형<label>
+                    <select id="room">
+                        <option value="room1">오션뷰 스위트</option>
+                        <option value="room2">비치프론트 빌라</option>
+                        <option value="room3">기본 스위트</option>
+                    </select>
+                <label class="reg" for="stuffs">부속 인원</label>
+                <input type="number" id="stuffs" value="1" min="0" max="50" step="1">
+            </fieldset>
+            <fieldset class="fie">
+                <legend>추가옵션</legend>
+                <label>식사 서비스 : <input type="radio" name="rice" value="rice2">조식포함
+                <input type="radio" name="rice" value="rice3">포함안함
+                <input type="checkbox" name="pick" value="name2">리조트 픽업 서비스
+                <input type="checkbox" name="pick" value="name3">레이트 체크아웃</label>
+                <h5>특별 요청사항</h5>
+                <input type="text" name="spec" id="spec2" size="15px">
+
+            </fieldset>
+            <fieldset id="buttons">
+                <button type="submit" value="submit" style="background-color: #fc0;">에약확정</button>
+                <button type="reset" value="reset" style="background-color: blue;">처음부터 다시</button>
+            </fieldset>
+            </div>
+    </body>
+</html>
